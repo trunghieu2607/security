@@ -8,6 +8,8 @@ namespace security.Controllers
 {
     public class HomeController : Controller
     {
+        private applicationdbcontext _dbContext;
+
         public ActionResult Index()
         {
             return View();
